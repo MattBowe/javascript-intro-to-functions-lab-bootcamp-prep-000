@@ -26,11 +26,10 @@ function sayHiToGrandma(string) {
   if(string.toUpperCase() !== upperCase) {
     return ("YES INDEED!");
   }
-  }
   if (string.toUpperCase() || string.toLowerCase() === mixedCase) {
     return ("I love you, too.");
 }
-
+}
 /*
 function sayHiToGrandma(string) {
   var upperCase = "HELLO";
