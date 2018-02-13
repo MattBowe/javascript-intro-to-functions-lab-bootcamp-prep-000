@@ -23,7 +23,7 @@ function sayHiToGrandma(string) {
   if(string === lowerCase) {
     return ("I can\'t hear you!");
   }
-  if (upperCase.toUpperCase() === upperCase) {
+  if (string === upperCase) {
     return ("YES INDEED!");
   }
   if (sting === mixedCase) {
