@@ -23,6 +23,8 @@ function sayHiToGrandma(string) {
   if(string.toLowerCase() === lowerCase) {
     return ("I can\'t hear you!");
   }
+}
+  /*
   if(string.toLowerCase() !== upperCase) {
     return ("YES INDEED!");
   }
@@ -30,6 +32,7 @@ function sayHiToGrandma(string) {
     return ("I love you, too.");
   }
 }
+*/
 /*
 function sayHiToGrandma(string) {
   var upperCase = "HELLO";
