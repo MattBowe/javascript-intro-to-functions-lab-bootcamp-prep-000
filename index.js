@@ -20,13 +20,13 @@ function sayHiToGrandma(string) {
   var lowerCase = 'hello';
   var upperCase = 'HELLO';
   var mixedCase = "I love you, Grandma.";
-  if(string.logWhisper() === lowerCase) {
+  if(string.toLowerCase() === lowerCase) {
     return ("I can\'t hear you!");
   }
-  if(string.logShout() === upperCase) {
+  if(string.toUpperCasepperCase() === upperCase) {
     return ("YES INDEED!");
   }
-  if (string.logWhisper() || string.logShout() === mixedCase) {
+  if (string.toUpperCase() || string.toLowerCase() === mixedCase) {
     return ("I love you, too.");
   }
 }
