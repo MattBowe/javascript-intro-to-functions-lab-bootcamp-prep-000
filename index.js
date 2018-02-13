@@ -28,8 +28,10 @@ function sayHiToGrandma(string) {
     return ("YES INDEED!");
   }
   }
+  function sayHiToGrandma(string) {
   if (string.toUpperCase() || string.toLowerCase() === mixedCase) {
     return ("I love you, too.");
+  }
   }
 }
 
